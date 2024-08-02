@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #616161 -278.56%,
+    #676767 -78.47%,
+    #0f0115 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #ebdefa 0.89%,
+    #e1bef5 17.23%,
+    #c29df0 42.04%,
+    #b87deb 55.12%,
+    #935ce6 68.64%,
+    #7b33cf 99.36%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #ebdefa 0.89%,
+    #e1bef5 17.23%,
+    #c29df0 42.04%,
+    #b87deb 55.12%,
+    #935ce6 68.64%,
+    #7b33cf 99.36%
+  );
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6eb3 -78.47%,
+    #11101d 91.61%
+  );
+}
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -161.57deg,
+    #ffffff -6.64%,
+    #6d6d6eb3 -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.blue-gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0.6) 0%, #214d76 100%);
+}
+
+.pink-gradient {
+  background: linear-gradient(90deg, #ff99ac 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white-gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
