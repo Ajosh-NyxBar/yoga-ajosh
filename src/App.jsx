@@ -5,11 +5,11 @@ import { Billing, Business, CardDeal, Clients, CTA, Footer, Hero, Navbar, Stats,
 const App = () => {
   return (
     <div className='bg-primary text-white overflow-hidden'>
-      <div className={`${styles.paddingX}`}>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
-      </div>
+      </div>  
 
       <div className={`bg-primary ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
