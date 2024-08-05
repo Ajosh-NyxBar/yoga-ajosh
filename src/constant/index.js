@@ -62,3 +62,26 @@ export const stats = [
     value: "Transaction",
   },
 ];
+
+export const features = [
+  {
+    id: 1,
+    icon: health,
+    title: "health",
+    content:
+      "Health is a state of complete physical, mental, and social well-being.",
+  },
+  {
+    id: 2,
+    icon: mind,
+    title: "mind",
+    content:
+      "Mindfulness involves being fully present and aware of our thoughts.",
+  },
+  {
+    id: 3,
+    icon: medi,
+    title: "meditation",
+    content: "Meditation is a practice where an individual uses a technique.",
+  },
+];
