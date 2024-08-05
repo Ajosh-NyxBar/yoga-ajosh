@@ -67,21 +67,21 @@ export const features = [
   {
     id: 1,
     icon: health,
-    title: "health",
+    title: "Health",
     content:
       "Health is a state of complete physical, mental, and social well-being.",
   },
   {
     id: 2,
     icon: mind,
-    title: "mind",
+    title: "Mind",
     content:
       "Mindfulness involves being fully present and aware of our thoughts.",
   },
   {
     id: 3,
     icon: medi,
-    title: "meditation",
+    title: "Meditation",
     content: "Meditation is a practice where an individual uses a technique.",
   },
 ];
