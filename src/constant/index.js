@@ -85,3 +85,27 @@ export const features = [
     content: "Meditation is a practice where an individual uses a technique.",
   },
 ];
+
+export const feed = [ 
+  {
+    id: 1,
+    img: people01,
+    name: "Ahmad Santoso",
+    title: "CEO, ABC Corp",
+    content: "Ahmad adalah seorang pemimpin visioner yang telah membawa ABC Corp ke puncak kesuksesan dengan inovasi dan dedikasinya.",
+  },
+  {
+    id: 2,
+    img: people02,
+    name: "Siti Nurhaliza",
+    title: "CEO, DEF Ltd",
+    content: "Siti adalah seorang eksekutif berpengalaman yang dikenal karena kemampuannya dalam mengelola tim dan mencapai target perusahaan.",
+  },
+  {
+    id: 3,
+    img: people03,
+    name: "Budi Hartono",
+    title: "CEO, GHI Inc",
+    content: "Budi telah memimpin GHI Inc selama lebih dari satu dekade, membawa perusahaan melalui berbagai tantangan dan meraih banyak penghargaan.",
+  },
+];
